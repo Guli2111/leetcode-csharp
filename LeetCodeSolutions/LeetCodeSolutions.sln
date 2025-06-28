@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolutions", "LeetCodeSolutions\LeetCodeSolutions.csproj", "{516AEFCD-3D72-4528-9156-BFA1DF42D7BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E66F78A6-E1F0-4A09-ACA2-F8E437C8C231}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516AEFCD-3D72-4528-9156-BFA1DF42D7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516AEFCD-3D72-4528-9156-BFA1DF42D7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516AEFCD-3D72-4528-9156-BFA1DF42D7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516AEFCD-3D72-4528-9156-BFA1DF42D7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8072B10A-FA93-42E7-8F0F-269E111863E1}
+	EndGlobalSection
+EndGlobal
