@@ -18,5 +18,22 @@
             }
             return new string(chars);
         }
+        public static string ReverseWords(string s)
+        {
+            string reverseWords = "";
+            string[] newStr = s.Split(' ');
+            foreach (string str in newStr)
+            {
+                string reverseString = "";
+                char[] chars = str.ToCharArray();
+
+                for (int i = str.Length - 1; i >= 0; i--)
+                {
+                    reverseString += chars[i];
+                }
+                //reverseWords += reverseString;
+            }
+            return 
+        }
     }
 }
