@@ -39,18 +39,37 @@
         }
         public static void ReverseString(char[] s)
         {
-            char[] reverseChar = new char[s.Length];
-            int index = 0;
-            for(int i = s.Length-1; i >= 0; i--)
+            //char[] reverseChar = new char[s.Length];
+            //int index = 0;
+            //for(int i = s.Length-1; i >= 0; i--)
+            //{
+            //    reverseChar[index] += s[i];
+            //    index++;
+            //}
+            //for(int i = 0; i < s.Length; i++)
+            //{
+            //    Console.Write("\""+ reverseChar[i] + "\",");
+            //}
+            ////return true;
+            ///
+            int left = 0;
+            int right = s.Length - 1;
+            while (left < right)
             {
-                reverseChar[index] += s[i];
-                index++;
-            }
-            for(int i = 0; i < s.Length; i++)
+                // Swap characters
+                char temp = s[left];
+                s[left] = s[right];
+                s[right] = temp;
+
+                // Move towards the middle
+                left++;
+                right--;
+            }  
+            // Print the reversed array
+            foreach (char c in s)
             {
-                Console.Write(reverseChar[i] + " ");
+                Console.Write("\"" + c + "\",");
             }
-            //return true;
         }
     }
 }
