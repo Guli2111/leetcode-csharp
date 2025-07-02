@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ToLOwerCase("Hello world!"));
+            //Console.WriteLine(ToLOwerCase("Hello world!"));
+            Console.WriteLine(ReverseWords("Hello world!"));
         }
         public static string ToLOwerCase(string s)
         {
@@ -31,9 +32,10 @@
                 {
                     reverseString += chars[i];
                 }
-                //reverseWords += reverseString;
+                reverseWords += reverseString +" ";
             }
-            return 
+            reverseWords = reverseWords.TrimEnd(); // Remove the trailing space
+            return reverseWords;
         }
     }
 }
